@@ -83,6 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/interestRate" />
 
     <LinearLayout
+        android:id="@+id/resultLayout"
         android:layout_width="344dp"
         android:layout_height="132dp"
         android:layout_margin="16dp"
@@ -120,5 +121,16 @@
             android:text="Monthly Payment: " />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BlueButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
